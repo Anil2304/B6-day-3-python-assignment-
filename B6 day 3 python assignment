@@ -1,0 +1,124 @@
+In [ ]:
+ASSINGMENT 1 & 2 AND PRACTICE WORK
+In [ ]:
+a = 20
+b = 35.87
+type(a)
+Conversion Function
+
+In [4]:
+a = 30.78
+b = int(a)
+In [5]:
+print(b)
+30
+In [8]:
+print(a)
+30.78
+In [9]:
+j = 90
+i = float(j)
+In [10]:
+print(i)
+90.0
+In [ ]:
+Str
+In [11]:
+a = 89
+type(a)
+print(a)
+89
+In [13]:
+k = str(a)
+print(k)
+89
+In [14]:
+print(type(k))
+<class 'str'>
+In [15]:
+k = 1213234556723456721
+print(k)
+1213234556723456721
+In [17]:
+k = 0.12345678876543223456
+print(k)
+0.12345678876543223
+In [18]:
+k = 1.123456789098765432123456765432345
+print(k)
+1.1234567890987655
+In [20]:
+k = 1.23456780987654323456765432234565432234
+print(k)
+1.2345678098765431
+In [21]:
+k = 1235432123.0987656789
+print(k)
+1235432123.0987656
+Input Function
+
+In [30]:
+val = int(input("Enter the value"))
+
+print(val)
+Enter the value90
+90
+In [28]:
+res =val+10
+print(res)
+print(val)
+print(type(val))
+100
+90
+<class 'int'>
+In [32]:
+val = float(input("Enter the value"))
+
+print(val)
+Enter the value90
+90.0
+In [33]:
+res =val+10
+print(res)
+print(val)
+print(type(val))
+100.0
+90.0
+<class 'float'>
+In [34]:
+val =eval(input("Enter the value"))
+Enter the value87
+In [35]:
+res =val+10
+print(res)
+print(val)
+print(type(val))
+97
+87
+<class 'int'>
+In [41]:
+eval('10')
+Out[41]:
+10
+In [42]:
+eval("10*2+10")
+Out[42]:
+30
+In [43]:
+eval("[1,2]")
+Out[43]:
+[1, 2]
+IF STATEMENT
+
+In [44]:
+pass1 = input("Enter the password")
+if pass1 == "wisdom":
+    print("welcome Letsupgrade")
+print("Done")
+Enter the passwordwisdom
+welcome Letsupgrade
+Done
+In [ ]:
+IF ELSE
+In [46]:
+pass1 = input(
